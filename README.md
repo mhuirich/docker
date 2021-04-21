@@ -2,7 +2,6 @@
 
 *Useful docker images*
 
-
 [![Project Logo][logo]][logo-large]
 
 
