@@ -7,8 +7,9 @@ ENV UPX_VERS=3.96
 ENV UPX_DIR=upx-${UPX_VERS}-amd64_linux
 ENV UPX_FILE=${UPX_DIR}.tar.xz
 
-RUN apk upgrade --no-cache &&\
-    apk add --no-cache \
+RUN apk upgrade --no-cache && \
+        apk add --no-cache \
+        bash \
         curl \
         gcc \
         git \
